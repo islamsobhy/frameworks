@@ -8,3 +8,5 @@ all: extension.zip
 extension.zip: manifest.json LICENSE ${JS_FILES} ${HTML_FILES} ${CSS_FILES} ${IMAGES}
 	rm -f $@
 	zip $@ $^
+
+#comment
